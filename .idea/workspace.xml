@@ -19,15 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="HW2完成">
-      <change afterPath="$PROJECT_DIR$/src/hw2/hw2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/HeadLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/Josephus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/MinimalStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw3/hw3.md" afterDir="false" />
+    <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="HW3 还差丢手绢">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Homework/hw2/BinarySearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Homework/hw2/BinarySearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Homework/hw2/hw2.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Homework/hw2/hw2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/hw3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/hw3.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.MinimalStack">
+  <component name="RunManager" selected="Application.Josephus">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw2.BinarySearch" />
       <module name="DSA_Homework" />
@@ -95,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimalStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw3.MinimalStack" />
+    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.Josephus" />
       <module name="DSA_Homework" />
       <extension name="coverage">
         <pattern>
@@ -108,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw1.Permute" />
+    <configuration name="MinimalStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.MinimalStack" />
       <module name="DSA_Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephus" />
         <item itemvalue="Application.MinimalStack" />
         <item itemvalue="Application.HeadLinkedList" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Permute" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +154,8 @@
       <workItem from="1600702658341" duration="65000" />
       <workItem from="1600747169683" duration="11294000" />
       <workItem from="1600761550731" duration="1177000" />
-      <workItem from="1601388702197" duration="6359000" />
+      <workItem from="1601388702197" duration="6463000" />
+      <workItem from="1601427973858" duration="3797000" />
     </task>
     <task id="LOCAL-00001" summary="HW2完成">
       <created>1601388189686</created>
@@ -168,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601388189686</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HW3 还差丢手绢">
+      <created>1601395079742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601395079742</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,25 +192,26 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="HW2完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW2完成" />
+    <MESSAGE value="HW3 还差丢手绢" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3 还差丢手绢" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom" timestamp="1601394826167">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601394826167" />
-    <state width="1877" height="250" key="GridCell.Tab.0.center" timestamp="1601394826167">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601394826167" />
-    <state width="1877" height="250" key="GridCell.Tab.0.left" timestamp="1601394826167">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601394826167" />
-    <state width="1877" height="250" key="GridCell.Tab.0.right" timestamp="1601394826167">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="250" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601394826167" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
     <state width="1877" height="135" key="GridCell.Tab.1.bottom" timestamp="1600761386291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -224,10 +228,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="135" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600761386291" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601388202242">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601395168061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601388202242" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601395168061" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601393786514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

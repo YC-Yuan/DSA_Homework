@@ -2,6 +2,90 @@
 
 袁逸聪 19302010020
 
+## 3.6
+
+采用环形链表便于删除，以size记录当前链表长度，便于使用M%size来减少后期的遍历次数。故每次遍历最多size次(由于size是均匀减小的，可以确定平均在size/2次)
+
+```Java
+public class Josephus {
+    public static void main(String[] args) {
+        int M=50;
+        int N=80;
+        CircularLinkedList list = new CircularLinkedList(N);
+
+        Node currentNode=list.first;
+        while(list.size>1){
+            for(int i=0;i<M%list.size;i++){
+                currentNode=currentNode.next;
+            }
+            list.remove(currentNode);
+        }
+        System.out.println("The remain node is no"+currentNode.no);
+    }
+
+    //实现单向环形链表
+    static class Node {
+        public Node next;
+        public int no;
+
+        public Node(int no) {
+            this.no = no;
+        }
+    }
+
+    static class CircularLinkedList {
+        public Node first;
+        public Node last;
+        public int size = 0;
+
+        public CircularLinkedList(int n) {
+            for(int i=0;i<n;i++){
+                this.add(new Node(i+1));
+            }
+        }
+
+        //首尾相接的环形插入
+        public void add(Node node) {
+            if (size == 0) {
+                size++;
+                first = node;
+                first.next = node;
+                last = node;
+            }
+            else if (size > 0) {
+                size++;
+                last.next = node;
+                last = node;
+                node.next = first;
+            }
+        }
+
+        //删除任意一个节点(没怎么太考虑head和tail的更新，因为这个问题里用不到)
+        public void remove(Node node) {
+            if (size == 0) System.out.println("The remain node is no"+node.no);
+            else {
+                int temp = node.next.no;
+                node.next.no = node.no;
+                node.no = temp;
+                node.next = node.next.next;
+                size--;
+            }
+        }
+    }
+}
+```
+运行时间：毫秒
+
+|        | M=50000  |  M=100000  | M=200000  |
+|  ----  |  ----  |  ----  |  ----  |
+| N=50000  | 1075 | 1167 | 1272 |
+| N=100000  | 5903 | 4200 | 4603 |
+| N=200000  | 18796 | 23564 | 17021 |
+
+可以看到因为M%size,M极大超过N时对运行时间没有明显增进。将复杂度从O(MN)变为O(N^2)
+
+而在M小于N时，又变为O(MN),这里需要根据size的变化分段计算,size减小到M以下时又进入size^2级别
+
 ## 3.11
 
 很直白的实现，说明下解构
