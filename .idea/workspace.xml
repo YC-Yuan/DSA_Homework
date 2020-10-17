@@ -19,14 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="HW3 还差丢手绢">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/Josephus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw3/hw3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw3/hw3.md" afterDir="false" />
+    </list>
+>>>>>>> cac917457bb4233fdeeb4bb4b0e71f14d382d795
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CodeStyleSettingsInfer">
-    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,14 +43,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="1" />
-  </component>
   <component name="ProjectId" id="1hp0H03pFDCpAm3eVllT0xhA12b" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,7 +67,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.Josephus">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw2.BinarySearch" />
       <module name="DSA_Homework" />
@@ -77,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Majority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw2.Majority" />
+    <configuration name="HeadLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.HeadLinkedList" />
       <module name="DSA_Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw2.*" />
+          <option name="PATTERN" value="hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +94,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw1.Permute" />
+    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.Josephus" />
       <module name="DSA_Homework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw1.*" />
+          <option name="PATTERN" value="hw3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinimalStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw3.MinimalStack" />
+      <module name="DSA_Homework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,24 +135,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Josephus" />
+        <item itemvalue="Application.MinimalStack" />
+        <item itemvalue="Application.HeadLinkedList" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.Majority" />
         <item itemvalue="Application.Selection" />
-        <item itemvalue="Application.Permute" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -152,66 +158,92 @@
       <workItem from="1600702658341" duration="65000" />
       <workItem from="1600747169683" duration="11294000" />
       <workItem from="1600761550731" duration="1177000" />
+<<<<<<< HEAD
       <workItem from="1601375655141" duration="6772000" />
       <workItem from="1602487624316" duration="26000" />
+=======
+      <workItem from="1601388702197" duration="6463000" />
+      <workItem from="1601427973858" duration="3797000" />
     </task>
+    <task id="LOCAL-00001" summary="HW2完成">
+      <created>1601388189686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601388189686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="HW3 还差丢手绢">
+      <created>1601395079742</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601395079742</updated>
+>>>>>>> cac917457bb4233fdeeb4bb4b0e71f14d382d795
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="HW2完成" />
+    <MESSAGE value="HW3 还差丢手绢" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3 还差丢手绢" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1601383740867">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1601383740867">
+    <state width="1877" height="341" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.center" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1601383740867">
+    <state width="1877" height="341" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.left" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1601383740867">
+    <state width="1877" height="341" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="341" key="GridCell.Tab.0.right" timestamp="1601431480362">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1601383740867">
+    <state width="1877" height="341" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601431480362" />
+    <state width="1877" height="135" key="GridCell.Tab.1.bottom" timestamp="1600761386291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1601383740867">
+    <state width="1877" height="135" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600761386291" />
+    <state width="1877" height="135" key="GridCell.Tab.1.center" timestamp="1600761386291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1601383740867">
+    <state width="1877" height="135" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600761386291" />
+    <state width="1877" height="135" key="GridCell.Tab.1.left" timestamp="1600761386291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1601383740867">
+    <state width="1877" height="135" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600761386291" />
+    <state width="1877" height="135" key="GridCell.Tab.1.right" timestamp="1600761386291">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601383740867" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600751035286">
+    <state width="1877" height="135" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600761386291" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601395168061">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600751035286" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601395168061" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601393786514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601393786514" />
   </component>
 </project>
