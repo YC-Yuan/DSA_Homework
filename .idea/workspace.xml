@@ -19,24 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/Majority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw2/hw2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DSA_Homework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DSA_Homework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Homework/hw1/QuickSelection.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Homework/hw1/QuickSelection.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Homework/hw1/Selection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_Homework/hw1/Selection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_Homework/hw1/~$QuickSelection.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw1/Permute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/Permute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw1/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw1/Selection.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c2714ff-6cc2-46ba-a4cb-7107c53cdc7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,6 +153,7 @@
       <workItem from="1600747169683" duration="11294000" />
       <workItem from="1600761550731" duration="1177000" />
       <workItem from="1601375655141" duration="6772000" />
+      <workItem from="1602487624316" duration="26000" />
     </task>
     <servers />
   </component>
